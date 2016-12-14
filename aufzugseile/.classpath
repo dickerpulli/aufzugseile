@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.form" kind="src" path="src"/>
+	<classpathentry kind="src" path="rsrc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/swing-layout-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="lib/help.jar"/>
+	<classpathentry kind="lib" path="lib/hsviewer.jar"/>
+	<classpathentry kind="lib" path="lib/jh.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-2007_09_30.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/trigonometry-1.0.0.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

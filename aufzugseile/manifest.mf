@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: de.tbosch.aufzugseile.startup.Aufzugseile
+SplashScreen-Image: images/splash.gif
+Class-Path: lib/xstream-1.2.2.jar lib/swingx-2007_09_30.jar lib/swing-layout-1.0.jar lib/AbsoluteLayout.jar lib/trigonometry-1.0.0.jar lib/help.jar lib/hsviewer.jar lib/jh.jar

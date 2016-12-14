@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="351" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="174" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="seiltriebwirkungsgradLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="schraegzugLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="durchmesserLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="seilrilleLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="seilrilleFormattedTextField" alignment="0" max="32767" attributes="1"/>
+                          <Component id="durchmesserFormattedTextField" alignment="0" pref="54" max="32767" attributes="1"/>
+                          <Component id="seiltriebwirkungsgradFormattedTextField" alignment="0" max="32767" attributes="1"/>
+                          <Component id="schraegzugFormattedTextField" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="durchmesserEinheitLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="gegenbiegungLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="gegenbiegungCheckBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lockToggleButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="durchmesserLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="durchmesserFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="durchmesserEinheitLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="seiltriebwirkungsgradLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="seiltriebwirkungsgradFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="seilrilleFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="seilrilleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="schraegzugLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="schraegzugFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="gegenbiegungLabel" alignment="0" max="32767" attributes="1"/>
+                          <Component id="lockToggleButton" alignment="0" min="-2" max="-2" attributes="1"/>
+                          <Component id="gegenbiegungCheckBox" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="seiltriebwirkungsgradLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Seiltriebwirkungsgrad (fs2):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="schraegzugLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Schr&#xe4;gzug (fn4):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="seiltriebwirkungsgradFormattedTextField">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="seiltriebwirkungsgradFormattedTextFieldKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="schraegzugFormattedTextField">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="schraegzugFormattedTextFieldKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="durchmesserEinheitLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="mm"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="durchmesserLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Durchmesser:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="seilrilleLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Seilrille (fn3):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="gegenbiegungLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Gegenbiegung vor der Rolle:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="gegenbiegungCheckBox">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="0" left="0" right="0" top="0"/>
+                  </Border>
+                </Property>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[0, 0, 0, 0]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gegenbiegungCheckBoxActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="durchmesserFormattedTextField">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="durchmesserFormattedTextFieldKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="seilrilleFormattedTextField">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="seilrilleFormattedTextFieldKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="lockToggleButton">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="lock"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lockToggleButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
