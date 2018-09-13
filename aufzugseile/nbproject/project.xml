@@ -6,8 +6,8 @@
             <name>Aufzugseile</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <source-roots>
-                <root id="src.rsrc.dir"/>
-                <root id="src.src.dir"/>
+                <root id="src.src.main.resources.dir"/>
+                <root id="src.src.main.java.dir"/>
             </source-roots>
             <test-roots/>
         </data>

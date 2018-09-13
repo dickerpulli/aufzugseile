@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package de.tbosch.aufzugseile.utils;
 
@@ -14,16 +14,16 @@ import javax.swing.JTextField;
 
 /**
  * @author Thomas Bosch (tbosch@gmx.de)
- * 
+ *
  */
 public class Helper {
 
 	/**
 	 * Gets the file URL.
-	 * 
+	 *
 	 * @param resource
 	 *            the resource
-	 * 
+	 *
 	 * @return the file URL
 	 */
 	public static URL getFileURL(String resource) {
@@ -51,10 +51,10 @@ public class Helper {
 
 	/**
 	 * Gets the correct integer value from a text field.
-	 * 
+	 *
 	 * @param textField
 	 *            the text field
-	 * 
+	 *
 	 * @return the correct value as integer, or Integer.MIN_VALUE if the textfield contains no number
 	 */
 	public static int getIntFromTextField(JTextField textField) {
@@ -72,10 +72,10 @@ public class Helper {
 
 	/**
 	 * Gets the correct double value from a text field.
-	 * 
+	 *
 	 * @param textField
 	 *            the text field
-	 * 
+	 *
 	 * @return the correct value as double, or Double.MIN_VALUE if the textfield contains no number
 	 */
 	public static double getDoubleFromTextField(JTextField textField) {
@@ -93,7 +93,7 @@ public class Helper {
 
 	/**
 	 * Shows the child frame in the middle of the parent frame The parent is set disabled.
-	 * 
+	 *
 	 * @param child
 	 *            the child
 	 * @param parent
@@ -118,7 +118,7 @@ public class Helper {
 
 	/**
 	 * Shows the child dialog in the middle of the parent frame The parent is set disabled.
-	 * 
+	 *
 	 * @param child
 	 *            the child
 	 * @param parent
@@ -156,16 +156,7 @@ public class Helper {
 				path = "";
 			}
 		} else {
-			String searchString = "lib" + Constants.FILESEP + "swing-layout-1.0.jar";
-			if (path.indexOf(searchString) != -1) {
-				path = path.substring(0, path.indexOf(searchString));
-				if (path.indexOf(Constants.PATHSEP) != -1) {
-					path = path.substring(path.lastIndexOf(Constants.PATHSEP) + 1);
-				}
-				if (path.lastIndexOf(Constants.FILESEP) != -1) {
-					path = path.substring(0, path.lastIndexOf(Constants.FILESEP));
-				}
-			}
+			path = System.getProperty("user.dir");
 		}
 		return path;
 	}

@@ -25,17 +25,16 @@ import de.tbosch.aufzugseile.gui.aufzug.Umlenkrolle;
 import de.tbosch.aufzugseile.utils.Constants;
 import de.tbosch.aufzugseile.utils.Helper;
 
-// TODO: Auto-generated Javadoc
 /**
  * The class of the rope.
- * 
+ *
  * @author Thomas Bosch (tbosch@gmx.de)
  */
 // TODO: comment
 public class Seil extends JComponent {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 2940860007490385716L;
 
@@ -62,7 +61,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Creates a new instance of Seil.
-	 * 
+	 *
 	 * @param aufzugschacht
 	 *            The elevator itself
 	 */
@@ -99,7 +98,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Triggered if mouse exited seil area.
-	 * 
+	 *
 	 * @param evt
 	 *            The MouseEvent
 	 */
@@ -109,7 +108,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Triggered if mouse moved over rope area.
-	 * 
+	 *
 	 * @param evt
 	 *            The MouseEvent
 	 */
@@ -119,7 +118,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Triggered if mouse button clicked on rope-area.
-	 * 
+	 *
 	 * @param evt
 	 *            The MouseEvent
 	 */
@@ -163,7 +162,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Overrides the paint-method.
-	 * 
+	 *
 	 * @param g
 	 *            The Graphics object
 	 */
@@ -184,7 +183,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Adds an element to the rope.
-	 * 
+	 *
 	 * @param element
 	 *            The element to add
 	 */
@@ -227,7 +226,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Replace an element by another one.
-	 * 
+	 *
 	 * @param element
 	 *            the element
 	 * @param toReplace
@@ -252,7 +251,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Removes an element from the rope.
-	 * 
+	 *
 	 * @param element
 	 *            The element to remove
 	 */
@@ -303,12 +302,12 @@ public class Seil extends JComponent {
 
 	/**
 	 * Checks if mouse is in a defined area (6x6 rectangle) over the polygon.
-	 * 
+	 *
 	 * @param mx
 	 *            The mouse x-coordinates
 	 * @param my
 	 *            The mouse y-coordinates
-	 * 
+	 *
 	 * @return True if mouse is over the rope
 	 */
 	private boolean mouseOverSeil(int mx, int my) {
@@ -331,7 +330,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Return the count of elements on the rope.
-	 * 
+	 *
 	 * @return Count of elements
 	 */
 	public int getElementCount() {
@@ -409,7 +408,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Gets the aufzugschacht.
-	 * 
+	 *
 	 * @return the aufzugschacht
 	 */
 	public Aufzugschacht getAufzugschacht() {
@@ -418,7 +417,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Gets the count of ropes in one big rope.
-	 * 
+	 *
 	 * @return the count
 	 */
 	public int getCount() {
@@ -427,7 +426,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Sets the count of ropes in one big rope.
-	 * 
+	 *
 	 * @param count
 	 *            the count to set
 	 */
@@ -437,10 +436,10 @@ public class Seil extends JComponent {
 
 	/**
 	 * Checks if is element.
-	 * 
+	 *
 	 * @param element
 	 *            the element
-	 * 
+	 *
 	 * @return true, if is element
 	 */
 	public boolean isElement(Element element) {
@@ -451,7 +450,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Gets the biegelaenge.
-	 * 
+	 *
 	 * @return the biegelaenge
 	 */
 	public int getL() {
@@ -460,7 +459,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Sets the biegelaenge.
-	 * 
+	 *
 	 * @param biegelaenge
 	 *            the biegelaenge to set
 	 */
@@ -470,7 +469,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Gets the nenndurchmesser in millimeters.
-	 * 
+	 *
 	 * @return the nenndurchmesser
 	 */
 	public double getD() {
@@ -479,7 +478,7 @@ public class Seil extends JComponent {
 
 	/**
 	 * Sets the nenndurchmesser in millimeters.
-	 * 
+	 *
 	 * @param nenndurchmesser
 	 *            the nenndurchmesser to set
 	 */
@@ -503,10 +502,10 @@ public class Seil extends JComponent {
 
 	/**
 	 * Checks if the elementVector already contains two elements.
-	 * 
+	 *
 	 * @param element
 	 *            the element
-	 * 
+	 *
 	 * @return true, if has already two elements
 	 */
 	public boolean hasAlreadyTwoElements(Element element) {
@@ -518,7 +517,7 @@ public class Seil extends JComponent {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.awt.Component#toString()
 	 */
 	public String toString() {
